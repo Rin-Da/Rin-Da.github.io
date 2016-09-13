@@ -1,0 +1,269 @@
+html , body{
+	padding:0;
+	margin:0;
+}
+
+/* Header section */
+
+.header{
+	background: url('img/suite.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: cover;
+}
+
+.menu {
+	padding:20px 0 0 0 ;
+}
+
+img{
+	width: 70px;
+	margin-left: 0px;
+}
+
+/* links menu */
+.links {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 7px 0;
+}
+.links > li {
+    padding: 0 10px;
+}
+
+.links > li .active{
+    color: #DF5A04;
+}
+
+.links > li > a {
+    color: white;
+    padding: 0;
+}
+.links >li > a:hover, a:focus  {
+    transition: linear 0.4s;
+    text-decoration: none;
+    color: #DF5A04;
+}
+/*  */
+
+.banner-info{
+	font-weight: bold;
+    font-size: 4em;
+    color: #FFF;
+    text-transform: uppercase;
+    line-height: 1.3em;
+    text-align: center;
+}
+
+.para-mini{
+	font-size:23px;
+	color: #fff;
+	padding-top: 60px;
+	font-family: 'Work Sans', sans-serif;
+
+}
+
+.line {
+    width: 200px;
+    height: 1px;
+    background: #DF5A04;
+    display: inline-block;
+}
+
+.arrow a {
+    color: white;
+}   
+
+#arrow {
+    -webkit-animation: upAndDown 1.5s linear infinite;
+    padding-bottom: 10px;
+}
+
+@-webkit-keyframes upAndDown {
+    0%, 50%, to {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+    }
+    25% {
+        -webkit-transform: translate3d(0, -5px, 0);
+        transform: translate3d(0, -5px, 0);
+    }
+    75% {
+        -webkit-transform: translate3d(0, 5px, 0);
+        transform: translate3d(0, 5px, 0);
+    }
+}
+
+
+@media (min-width: 768px) {
+
+    .para {
+        padding: 150px 0 150px 0;
+    }
+}
+@media (max-width: 768px) {
+    .para {
+        padding: 50px 0 50px 0;
+    }
+}
+
+.res-menu {
+    background: transparent;
+    border: none;
+    color: white;  
+}
+
+/*===== Responsive Menu Links =====*/
+.res-menu-links {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 3em;
+}
+.res-menu-links > li > a {
+    padding: 0 10px;
+    color: white;
+}
+
+.res-menu-links > li > a:hover, a:focus  {
+    text-decoration: none;
+    transition: linear .2s;
+    color: white;
+    color: #DF5A04;
+}
+
+
+/* Service  */
+
+.service-title{
+	text-align: center;
+	padding-top: 100px;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 30px;
+	font-family: 'Work Sans', sans-serif;
+}
+
+.icon-dev{
+	padding-top: 80px;
+}
+
+.icon-para{
+	font-size:23px;
+	padding-top: 60px;
+	font-family: 'Work Sans', sans-serif;
+}
+
+/* team */
+.team-title{
+	color: #fff;
+	text-align: center;
+	padding-top: 100px;
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size: 35px;
+	font-family: 'Work Sans', sans-serif;
+	padding-top: 80px;
+	padding-bottom: 50px;
+}
+
+.about{
+	background: url('img/baner.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: cover;
+	margin-top: 100px;
+	padding-bottom: 80px;
+}
+
+.member1,.member2,.member3{
+	width: 170px;
+	height: 170px;
+	speak: none;
+	border-radius: 50%;
+	box-shadow: 0 0 0 5px #F1F1F1;
+	-webkit-box-shadow: 0 0 0 5px #F1F1F1;
+	-moz-box-shadow: 0 0 0 5px #F1F1F1;
+	-o-box-shadow: 0 0 0 5px #F1F1F1;
+	text-align: center;
+	left: 41%;
+	top: 0;
+	margin: 0 0 0 -25px;
+	display:block;
+}
+
+.img1{
+	background:url(img/mellone.JPG) no-repeat;
+	background-size: 100% 100%;
+}
+.img2{
+	background:url(img/tayote.jpeg) no-repeat;
+	background-size: 100% 100%;
+}
+.img3{
+	background:url(img/zaw.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+
+.name{
+	color: #fff;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.des{
+	color: #fff;
+	font-family: sans-serif;
+}
+
+
+/* contact */
+.contact{
+	padding-bottom: 100px;
+}
+
+.contact-title{
+	padding-top: 100px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 45px;
+	font-family: 'Work Sans', sans-serif;
+}
+
+label{
+	padding:20px 0 20px 0;
+}
+
+.contact-list{
+	font-size: 18px;
+	font-weight: bold;
+}
+
+a{
+	color: #000;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+.contact-form{
+	padding-top: 150px;
+}
+
+.footer{
+	width: 100%;
+	height: 150px;
+	background-color: #000;
+}
+
+.footer p{
+	color: #fff;
+	padding-top: 70px;
+	font-size:15px;
+	font-weight:300;
+}
