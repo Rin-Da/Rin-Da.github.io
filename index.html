@@ -1,253 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	<title>Rin-da</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
-    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css">
-    <link rel="stylesheet" href="animate.css">
-	<link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="bower_components/76d-social-icons/assets/css/social-icons.css">
-    <!--Fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,500,600|Lato" rel="stylesheet">
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
+
+
+    <style>
+
+        a, div{
+            text-decoration: none;
+        }
+        center{
+
+            margin-top: 250px;
+
+        }
+
+    </style>
+    <title>Rin-da</title>
 </head>
+
 <body>
 
-    <div class="header">
-     	<div class="menu container wow bounceInUp">
-            <div class="col-xs-10 col-sm-11 col-md-4 col-lg-4">
-                <a href="#">
-                    <img src="img/R.png" class="img-responsive"> 
-                </a>
-            </div>
-
-            <div class="col-md-8 col-lg-8 visible-md visible-lg">
-                <ul class="links list-inline pull-right">
-                    <li><a href="index.html" class="active">Home</a></li>
-                    <li><a href="#down">What we do?</a></li>
-                    <li><a href="#team">Team</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </div>
-
-            <div class="col-xs-2 col-sm-1 visible-xs visible-sm">
-                <button class="res-menu" type="button" data-toggle="collapse" data-target="#res-menu" aria-expanded="false" aria-controls="res-menu">
-                    <i class="fa fa-2x fa-bars"></i>
-                </button>
-            </div>
-        </div>
-
-        <div class="container collapse" id="res-menu">
-            <hr>
-            <ul class="res-menu-links list-unstyled">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#down">What we do?</a></li>
-                <li><a href="#team">Team</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
-    
-        <div class="container wow fadeIn" data-wow-delay="0.5s">
-            <div class="row">
-                <div class="col-md-1"></div>
-                <div class="col-md-10 text-center"">
-                    <div class="para">            
-                        <h1 class="banner-info"> WE CAN HELP YOU BUILD YOUR BUSINESS </h1>
-                        <span class="line"></span>
-                        <p class="para-mini">Make it bettter and always be successful</p>
-                    </div>
-                </div>
-                <div class="col-md-1"></div>
-            </div>        
-        </div>
-
-        <div class="text-center arrow">
-            <a href="#down">
-                <i class="fa fa-angle-down fa-5x" aria-hidden="true" id="arrow"></i>
-            </a>
-        </div>
-        
-    </div><!-- /.container -->
 
 
-    <div class="container" id="down">
-        <h1 class="service-title shadow">What we do?</h1>
-        <div class="container">
-            <div class="row text-center icon-dev">  
-                <div class="col-md-4 wow bounceInLeft">
-                    <i class="fa fa-desktop fa-5x" aria-hidden="true"></i>
-                    <p class="icon-para">WED DESIGN AND DEVELOPMENT</p>
-                </div>
-                <div class="col-md-4 wow bounceInDown">
-                    <i class="fa fa-android fa-5x" aria-hidden="true"></i>
-                    <p class="icon-para">ANDROID <br> DEVELOPMENT</p>
-                </div>
-                <div class="col-md-4 wow bounceInRight">
-                    <i class="fa fa-apple fa-5x" aria-hidden="true"></i>
-                    <p class="icon-para">IOS <br> DEVELOPMENT</p>
-                </div>
-            </div>
-        </div>
-    </div>
+
+    <center>
+        <h1>
+            <div id="divId"></div>
+        </h1>
+    </center>
+
+    <script>
 
     
-    <div class="about" id="team">
-        <div class="container">
-            <h1 class="team-title shodow">OUR TEAM</h1>
-            <ul class="list-unstyled">
-                <div class="row text-center">
-                    <li>
-                        <div class="col-md-4 col-sm-2 col-xs-1"></div>
-                        <div class="col-md-4 col-sm-8 col-xs-10">
-                            <div class="member1 img1 wow fadeIn" data-wow-delay="0.3s"> </div>
-                            <div class="member_title wow bounceInLeft" data-wow-delay="0.4s">
-                                <h2 class="name">Ye Lin Aung
-                                &nbsp;&nbsp;<a href="https://www.facebook.com/yelin.aung.750"><i class="si-circle si-colored si-facebook"></i>
-                                </a>
-                                <a href="https://twitter.com/ye_lin_aung"><i class="si-circle si-colored si-twitter"></i></a>
-                                <a href="#"><i class="si-circle si-colored si-googleplus"></i></a>
-                                <a target="blank" href="https://github.com/ye-lin-aung"><i class="si-circle si-colored si-github"></i></a>
+    var text = "Happy Thadingyut"
+    var textArray = text.split('');
 
-                                </h2>
-                                <p class="des">Coder ( Android )</p>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-2 col-xs-1"></div>
-                    </li>
-                </div>
-                <div class="row text-center">
-                    <li>
-                        <div class="col-md-4 col-sm-2 col-xs-1"></div>
-                        <div class="col-md-4 col-sm-8 col-xs-10">
-                            <a class="name" target="blank" href="http://nyanlynntunn.blogspot.com/"><div class="member2 img2 wow fadeIn" data-wow-delay="0.3s"> </div></a>
-                            <div class="member-title wow bounceInRight" data-wow-delay="0.4s">
-                                <h2 class="name">Nyan Lin Tun
-                                &nbsp;&nbsp;<a href="https://web.facebook.com/nyanlynntunn"><i class="si-circle si-colored si-facebook"></i></a>
-                                <a href="https://twitter.com/nyanlynntunn"><i class="si-circle si-colored si-twitter"></i></a>
-                                <a href="https://plus.google.com/104752898698725106286"><i class="si-circle si-colored si-googleplus"></i></a>
-                                 <a target="blank" href="https://github.com/nyan-lin-tun"><i class="si-circle si-colored si-github"></i></a>
+    var loopTime;
 
-                                </h2>
-                                <p class="des">Coder ( iOS )</p>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-2 col-xs-1"></div>
-                    </li>
-                </div>
-                <div class="row text-center">
-                    <li>
-                        <div class="col-md-4 col-sm-2 col-xs-1"></div>
-                        <div class="col-md-4 col-sm-8 col-xs-10">
-                            <div class="member3 img3 wow fadeIn" data-wow-delay="0.3s"> </div>
-                            <div class="member-title wow bounceInLeft" data-wow-delay="0.4s">
-                                <h2 class="name">Zaw Win Htun
-                                &nbsp;&nbsp;<a href="https://web.facebook.com/christmas304?fref=ts"><i class="si-circle si-colored si-facebook"></i></a>
-                                <a href="#"><i class="si-circle si-colored si-twitter"></i></a>
-                                <a href="#"><i class="si-circle si-colored si-googleplus"></i></a>
-                                <a target="blank" href="https://github.com/zaw-win-htun"><i class="si-circle si-colored si-github"></i></a>
-                                </h2>
-                                <p class="des">Coder ( Web )</p>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-2 col-xs-1"></div>
-                    </li>
-                </div>
-            </ul>
-        </div>
-    </div>
-
-    <div class="contact" id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="contact-left wow fadeInRight" data-wow-delay="0.4s">
-                        <h1 class="contact-title shadow">Contact Us</h1>
-                        <label>Don't be shy, drop us an email and say hello! We are a really nice bunch of people :)</label>
-                        <div class="contact-left-grids">
-                            <div class="col-md-6">
-                                <div class="contact-left-grid">
-                                <p class="contact-list"><span><i class="fa fa-phone fa-2x" aria-hidden="true"></i></span> 09-4253229994</p>
-                                <p class="contact-list"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i><a href="#"> facebook.com/rin-da</a></p> 
-                                    
-                                <p class="contact-list"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i><a href="#"> @rin-da</a></p>
-                                    
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="contact-right-grid">
-                                    <p class="contact-list"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i><a href="#"> contact@rinda.com</a></p>
-                                    <p class="contact-list"><i class="fa fa-google-plus fa-2x" aria-hidden="true"></i><a href="#"> plus.com/rin-da</a></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-6 contact-form">
-                    <div class="contact-right wow fadeInLeft" data-wow-delay="0.4s">
-                        <form>
-                          <div class="row">
-                              
-                              <div class="col-sm-12">
-                                  <div class="form-group">
-                                     
-                                      <input type="text" class="form-control" id="subject" placeholder="Name...">
-                                  </div>
-                              </div>
-                              <div class="col-sm-12">
-                                  <div class="form-group">
-                                      
-                                      <input type="text" class="form-control" id="email" placeholder="Email...">
-                                  </div>
-                              </div>
-                              <div class="col-sm-12">
-                                  <div class="form-group">
-                                      
-                                      <textarea id="message" class="form-control" placeholder="Message..."></textarea>
-                                  </div>
-                              </div>
-
-                              <div class="col-sm-12 text-center">
-                                  <button type="submit" class="btn btn-primary"><i class="fa fa-envelope-o"></i> Send message</button>
-
-                              </div>
-                          </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="footer">
-        <div class="container">
-            <p class="text-center">Copyright &copy; The Rin-da</p>
-        </div>
-    </div>
-
-	<script src="bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="bower_components/bootstrap/dist/js/smoothscroll.js"></script>
-	<script src="bower_components/bootstrap/dist/js/wow.js"></script>
-	<script src="bower_components/vue/dist/vue.min.js"></script>
-    <script>
-        new WOW().init();
-    </script>
-    <script>
-        $(document).ready(function(){
-          $('a[href*="#"]').on('click', function(event) {
-            if (this.hash !== "") {
-              event.preventDefault();
-              var hash = this.hash;
-              $('html, body').animate({
-                scrollTop: $(hash).offset().top
-              }, 1000, function(){           
-                window.location.hash = hash;
-              });
-            } 
-          });
-        });
-    </script>
+    function looper(){
+        if (textArray.length > 0) {
+            document.getElementById("divId").innerHTML += textArray.shift();
+        }else{
+            clearTimeout(loopTime);
+        }
+        loopTime = setTimeout("looper()",100);
+    }
+    looper();
+</script>
 </body>
 </html>
