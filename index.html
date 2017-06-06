@@ -233,7 +233,8 @@
 					<code class="javascript">
 Observable
 .create{ i -> return new Meet(); }
-.subscribeOn{ Email::Sent }
+.map{ Eamil::Sent }
+.subscribeOn{ EmailThread() }
 .subscribe()
 						</code>
 					</pre>
