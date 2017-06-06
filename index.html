@@ -231,9 +231,9 @@
 					<center>
 					<pre>
 					<code class="javascript">
-Observable.create
-{ event  -> return new Meet(); }.
-subscribeOn{ Email::Sent }
+Observable
+.create{ i -> return new Meet(); }
+.subscribeOn{ Email::Sent }
 .subscribe()
 						</code>
 					</pre>
