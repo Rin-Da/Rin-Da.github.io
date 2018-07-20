@@ -27,6 +27,11 @@
 		line-height: 1;
 	}
 
+
+	#header {
+		padding-right: 10%;
+	}
+
 	ol, ul {
 		list-style: none;
 	}
